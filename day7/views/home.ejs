@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Handling</title>
+  </head>
+  <body>
+    <h1>Form Handling</h1>
+
+    <form action="/saveform" method="post">
+      <label for="username">Enter name here:</label>
+      <input type="text" name="username" id="username" />
+      <br /><br />
+
+      <label for="userid">Enter ID:</label>
+      <input type="text" name="userid" id="userid" />
+      <br /><br />
+
+      <label for="password">Enter password:</label>
+      <input type="password" name="password" id="password" />
+      <br /><br />
+
+      <label for="skill">Enter skill:</label>
+      <select name="skill" id="skill">
+        <option value="react">React</option>
+        <option value="javascript">JavaScript</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+      </select>
+      <br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
