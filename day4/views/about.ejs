@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <h1>This is about page</h1>
+    <hr />
+
+    <%data.map((user,index)=>{%>
+    <h2>User ID: <%= user.id %></h2>
+    <h2>User Name: <%= user.user %></h2>
+    <h2>User Email: <%= user.umail %></h2>
+    <hr />
+    <%})%>
+    <hr />
+    <% var age = 20; %> <% if (age >= 20) { %>
+    <h2>Age is more than 18</h2>
+    <% } %>
+  </body>
+</html>
