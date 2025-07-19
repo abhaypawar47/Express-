@@ -4,11 +4,11 @@ const port = 9000;
 
 const menu = `
 <a href ='/'>home</a>
-<a href ='/about'>about</a>
-<a href ='/contact'>contct us</a>`;
+<a href ='/about'>ABOUT THE PAGE </a>
+<a href ='/contact'>CONTACT US</a>`;
 
 app.get("/", (req, res) => {
-  res.send(menu + "<h1>Home page</h1>");
+  res.send(menu + "<h1>HOME PAGE</h1>");
 });
 
 app.get("/about", (req, res) => {
